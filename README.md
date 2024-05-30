@@ -1,4 +1,4 @@
-`# **Description of 3 Layer Architecture in AWS**
+# **Description of 3 Layer Architecture in AWS**
 The 3-layer (3-tier) architecture in AWS is a design model that separates an application into three distinct logical layers: the presentation layer, the business logic layer, and the data layer. This modular approach allows for greater scalability, flexibility and system management, facilitating maintenance and continuous improvement. This describes how a 3-layer architecture is implemented in AWS.
 
 **1. Presentation Layer (Frontend)**
