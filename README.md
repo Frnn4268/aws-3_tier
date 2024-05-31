@@ -46,12 +46,12 @@ The data layer handles data storage, retrieval and management. In AWS, this laye
 - Create a secret containing a username and password with corresponding values using the AWS Secrets Manager. You can refer to this sample JSON template that contains the secret name 
 	> ams-shared/myapp/dev/dbsecrets
 
-and replace it with your secret name. For information about using AWS Secrets Manager with AMS, see Using AWS Secrets Manager with AMS resources.
+	and replace it with your secret name. For information about using AWS Secrets Manager with AMS, see Using AWS Secrets Manager with AMS resources.
 
 - Set up required parameters in the AWS SSM Parameter Store (PS). In this example, the VPCId and Subnet-Id of the Private and Public subnets are stored in the SSM PS in paths like
 	> /app/DemoApp/PublicSubnet1a, PublicSubnet1c PrivateSubnet1a
 
-PrivateSubnet1c and VPCCidr. Update the paths and parameter names and values for your needs.
+	PrivateSubnet1c and VPCCidr. Update the paths and parameter names and values for your needs.
 
 - Create an IAM Amazon EC2 instance role with read permissions to the AWS Secrets Manager and SSM Parameter Store paths (the IAM role created and used in these examples is 
 
