@@ -227,7 +227,6 @@ variable "app_nlb_tg_node" {
     "name"     = "app-tg-node"
     "port"     = 4000
     "protocol" = "TCP"
-
   }
 }
 
