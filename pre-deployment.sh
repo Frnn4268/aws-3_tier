@@ -42,8 +42,8 @@ env PATH=$PATH:/usr/local/bin pm2 startup -u ubuntu &&
 echo "const http = require('http'); const server = http.createServer((req, res) => { res.statusCode = 200; res.setHeader('Content-Type', 'text/plain'); res.end('Hello, World!'); }); server.listen(4000, () => { console.log('Server running at http://localhost:3000/'); });" > hello-world.js && pm2 start hello-world.js --name backend &&
 
 
-git clone https://github.com/Frnn4268/Snappy-IS.git &&
-cd Snappy-IS &&
+git clone https://github.com/Frnn4268/EasyParkChat.git &&
+cd EasyParkChat &&
 cd public &&
 
 # Deploying frontend for the first time
